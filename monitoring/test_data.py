@@ -7,7 +7,7 @@ headers = {
 
 #Ввести  tender_id вручну
 
-tender_id = 'ded768fa8bd2450097930c0aa7b9fd90'
+tender_id = '6f42f970d73d402cb0d2c37093f35cf4'
 
 payload = {
   "data": {
@@ -81,6 +81,21 @@ conclusion = {
       "stringsAttached": "Pocket full of posies",
       "auditFinding": "Ring around the rosies",
       "violationOccurred": True
+    }
+  }
+}
+
+conclusion_for_declined = {
+  "data": {
+    "conclusion": {
+      "violationType": [
+        "documentsForm",
+        "corruptionAwarded"
+      ],
+      "description": "Ось тиакивіалотів длескріпшн",
+      "stringsAttached": "Pocket full of posies",
+      "auditFinding": "Ring around the rosies",
+      "violationOccurred": False
     }
   }
 }
