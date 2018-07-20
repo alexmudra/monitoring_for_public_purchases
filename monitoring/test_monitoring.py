@@ -1,6 +1,7 @@
 import requests
 import json
-from monitoring.test_data import *
+import pprint
+from test_data import *
 
 
 # New draft only
@@ -10,7 +11,7 @@ def draft_monitoring():
     monitoring_id_long = monitoring_id.json()['data']['id']
     monitoring_id_short = monitoring_id.json()['data']['monitoring_id']
     return monitoring_id_long, monitoring_id_short
-#print(draft_monitoring())
+print(draft_monitoring())
 
 
 # New monitoring + activation

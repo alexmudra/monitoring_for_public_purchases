@@ -1,3 +1,5 @@
+import pprint
+from urllib.request import urlopen
 headers = {
     'Authorization': "Basic OWIzYWFhZmJhOWZlNGY0Yzk1YzNiZTNlMWZlYWFlMzE6",
     'Content-Type': "application/json",
@@ -6,8 +8,7 @@ headers = {
     }
 
 #Ввести  tender_id вручну
-
-tender_id = '6f42f970d73d402cb0d2c37093f35cf4'
+tender_id = 'dfeccebeb82f4cb888c3e340d9cd5ced'
 
 payload = {
   "data": {
